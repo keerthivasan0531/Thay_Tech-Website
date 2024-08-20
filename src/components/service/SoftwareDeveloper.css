@@ -1,0 +1,14 @@
+@keyframes downToUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animate-down-to-up {
+    animation: downToUp 2s ease-out forwards;
+  }
+  

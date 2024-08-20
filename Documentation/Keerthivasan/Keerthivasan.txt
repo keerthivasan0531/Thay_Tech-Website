@@ -1,3 +1,18 @@
+Date:20/08/2024
+Day:Tuesday
+
+SoftwareDeveloper.tsx
+   - Add router for service page
+   - Add Header template and animation with tailwind and pure CSS
+
+## Reference Websites ##
+1, https://wpdean.com/css-text-animation/
+2, https://mafoibusinessconsulting.com/ 
+3, https://www.rheincs.com/
+4, https://www.future-processing.com/services/
+
+------------------------------------------------------------------------------
+
 Date:19/08/2024
 Day:Monday
 

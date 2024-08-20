@@ -4,11 +4,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { LiaGripfire } from 'react-icons/lia';
 
 const navigation = [
-    { name: 'Services', href: '#', current: true },
-    { name: 'Industry', href: '#', current: false },
-    { name: 'Technology', href: '#', current: false },
-    { name: 'Clients', href: '#', current: false },
-    { name: 'About Us', href: '#', current: false },
+    { name: 'Home', href: '*' , current: true},
+    { name: 'Services', href: '/SoftwareDeveloper', current: false },
+    { name: 'Industry', href: '/#', current: false },
+    { name: 'Technology', href: '/#', current: false },
+    { name: 'Clients', href: '/#', current: false },
+    { name: 'About Us', href: '/#', current: false },
 ];
 
 const Navbar: React.FC = React.memo(() => {
