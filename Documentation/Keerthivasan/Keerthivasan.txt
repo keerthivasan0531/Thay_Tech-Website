@@ -1,3 +1,21 @@
+Date:21/08/2024
+Day:Wednesday
+
+SoftwareDeveloper.tsx
+   - Add Software Development cycle Presentation 
+   - add SoftwareDeveloper.css file to add animation
+   - modified ClientLogos text
+
+## Reference Websites ##
+1, https://www.codetez.com/
+2, https://www.ninositsolution.com/
+3, https://www.ewallsolutions.com/
+4, https://www.accenture.com/in-en
+
+
+------------------------------------------------------------------------------
+
+
 Date:20/08/2024
 Day:Tuesday
 

@@ -32,9 +32,10 @@ function ClientLogos() {
   return (
     <div className="ClientLogos">
       <div className="title">
-      <h2 className="text-3xl font-bold text-center text-gray-800">
-        Our Clients
+      <h2 className="text-3xl underline underline-offset-4 text-center text-gray-800">
+        Our  <b>Clients</b> 
         </h2>
+        <p className='pt-2'>Some of our clients taken software solution from us</p>
       </div>
 
       <div>
