@@ -1,3 +1,21 @@
+Date:22/08/2024
+Day:Thursday
+
+SoftwareDeveloper.tsx
+ - I worked on the UI, aligning the SoftwareDeveloper webpage by modifying the CSS.
+ - added a shadow to the images, changed the font style, included additional content, and updated the background color.
+
+## Reference Websites ##
+1, https://themewagon.github.io/productly/v1.0.0/
+2, https://www.ninositsolution.com/
+3, https://www.w3schools.com/
+4, https://www.ewallsolutions.com/
+5, https://tailwindcss.com/
+
+
+------------------------------------------------------------------------------
+
+
 Date:21/08/2024
 Day:Wednesday
 
