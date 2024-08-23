@@ -1,3 +1,20 @@
+Date:23/08/2024
+Day:Friday
+
+  -worked on the UI, aligning the SoftwareDeveloper webpage by modifying the CSS. 
+  -resolve the issue of text overlapping with images on mobile devices
+  -resolve the issue of the blank space on the right side when viewed on mobile devices.
+  -Fixed a response view
+  -To set a background image and apply a blur effect, use CSS .
+
+##Reference website##
+https://flowbite.com/docs/components/card/
+https://themewagon.github.io/essence/ 
+
+
+------------------------------------------------------------------------------
+
+
 Date:22/08/2024
 Day:Thursday
 

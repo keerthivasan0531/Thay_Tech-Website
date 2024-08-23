@@ -1,14 +1,71 @@
+/* Keyframes for down-to-up animation */
 @keyframes downToUp {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  .animate-down-to-up {
-    animation: downToUp 2s ease-out forwards;
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
+}
+
+/* Animation class */
+.animate-down-to-up {
+  animation: downToUp 2s ease-out forwards;
+}
+
+/* Full-screen header content */
+.header-content {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  background-color: #E3E1D9; /* Background color */
+  padding: 0 3.5%; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+.header-content img {
+  max-width: 85%;
+  align-items: center;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive text sizes */
+.header-content h1 {
+  font-size: 4rem;
+  margin-left: 20px; /* Default font size */
+}
+
+.header-content p {
+  font-size: 1.25rem;
+  margin-left: 20px; /* Default font size */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 868px) {
+  .header-content{
+    height: auto;
+  }
+  .header-content h1 {
+    font-size: 2.0rem; /* Smaller font size for tablets */
+  }
+
+  .header-content p {
+    font-size: 0.8rem; /* Smaller font size for tablets */
+  }
+}
+
+@media (max-width: 640px) {
+  .header-content{
+    height: auto;
+  }
+  .header-content h1 {
+    font-size: 1.05rem;
+  }
+
+  .header-content p {
+    font-size: 0.375rem; /* Even smaller font size for mobile */
+  }
+}
