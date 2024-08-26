@@ -1,3 +1,19 @@
+Date:26/08/2024
+Day:Monday
+
+  - Adjusted the carousel CSS file to modify the time-lapse settings.
+  - Revised the z-index strategy for the navbar to improve layer stacking
+
+##Reference website##
+https://redingtongroup.com/
+https://flowbite.com/docs/components/card/
+https://themewagon.github.io/essence/
+https://themewagon.github.io/ 
+
+
+------------------------------------------------------------------------------
+
+
 Date:23/08/2024
 Day:Friday
 
