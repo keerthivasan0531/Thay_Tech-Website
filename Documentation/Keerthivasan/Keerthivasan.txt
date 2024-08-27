@@ -1,3 +1,20 @@
+Date:27/08/2024
+Day:Tuesday
+
+Carousel1.tsx
+  - Add new for Carousel on the home page
+  - Add Css and animation on that 
+
+
+##Reference website##
+https://themewagon.github.io/acuas/
+https://themewagon.github.io/startupbusiness/
+https://themewagon.github.io/create/#services-section
+https://html.creativegigstf.com/charles/
+
+------------------------------------------------------------------------------
+
+
 Date:26/08/2024
 Day:Monday
 

@@ -1,0 +1,127 @@
+.carousel {
+    position: relative;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-arrow-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(77, 171, 206, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    padding: 0;
+    outline: none;
+  }
+  
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .dot {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Increased Size of Active Dot */
+  .carousel-indicators .dot.w-5.h-5 {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hover Effect for Dot */
+  .dot:hover {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Carousel Text Animations */
+  .animate-right-to-left {
+    animation: slide-right-to-left 0.5s ease forwards;
+  }
+  
+  .animate-left-to-right {
+    animation: slide-left-to-right 0.5s ease forwards;
+  }
+  
+  @keyframes slide-right-to-left {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slide-left-to-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Delayed Animation for Paragraph */
+  .carousel-heading {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    animation: fade-in 0.5s ease forwards;
+  }
+  
+  .carousel-subtext {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+    animation: fade-in 0.5s ease forwards;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
