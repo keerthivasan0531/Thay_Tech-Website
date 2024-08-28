@@ -1,3 +1,22 @@
+Date:28/08/2024
+Day:Wednesday
+
+Carousel1.tsx
+  - Add header animation and Arrow for the read more link
+  - home page content file with css and animation
+  - Collected photos for slides on Home page
+
+
+##Reference website##
+https://www.pexels.com/
+https://themewagon.github.io/acuas/
+https://themewagon.github.io/startupbusiness/
+https://html.creativegigstf.com/charles/
+
+
+------------------------------------------------------------------------------
+
+
 Date:27/08/2024
 Day:Tuesday
 
