@@ -1,3 +1,20 @@
+Date:29/08/2024
+Day:Thursday
+
+Carousel1.tsx
+  - collected images for AccordionImage file
+  - Referred verious website to gain knowledge on CSS styling and animations
+
+
+##Reference website##
+https://www.pexels.com/
+https://themewagon.github.io/acuas/
+https://html.creativegigstf.com/charles/
+
+
+------------------------------------------------------------------------------
+
+
 Date:28/08/2024
 Day:Wednesday
 
