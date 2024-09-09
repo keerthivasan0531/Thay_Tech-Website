@@ -22,7 +22,7 @@ const Training: React.FC = () => {
 
         <div className="flex flex-wrap justify-center text-center gap-4">
           {/* Service Items */}
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -56,7 +56,7 @@ const Training: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInRight">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -88,7 +88,7 @@ const Training: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -121,7 +121,7 @@ const Training: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInRight">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img

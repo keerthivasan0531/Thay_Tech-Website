@@ -67,9 +67,7 @@ const LaptopNavbar: React.FC = () => {
                 </svg>
               </button>
             </li>
-            <li className="flex items-center">
-              <MenuItem label="About Us" href="/about-us" showIcon={false} />
-            </li>
+          
             <li className="flex items-center">
               <MenuItem label="Technology" href="/technology" showIcon={false} />
             </li>
@@ -78,6 +76,12 @@ const LaptopNavbar: React.FC = () => {
             </li>
             <li className="flex items-center">
               <MenuItem label="Contact Us" href="/contact-us" showIcon={false} />
+            </li>
+            <li className="flex items-center">
+              <MenuItem label="Career" href="/Career" showIcon={false} />
+            </li>
+            <li className="flex items-center">
+              <MenuItem label="About" href="/About" showIcon={false} />
             </li>
           </ul>
         </div>

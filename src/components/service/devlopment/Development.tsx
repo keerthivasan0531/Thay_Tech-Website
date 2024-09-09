@@ -13,16 +13,16 @@ const Development: React.FC = () => {
       <div className="container mx-auto py-5">
         <div className="flex flex-wrap p-10 justify-center text-center gap-4">
           {/* Service Items */}
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4  fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
-              <div className="service-img">
+              <div className="service-img ">
                 <img
                   src="/service/itsupport/itsupport.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />
               </div>
-              <div className="service-content p-4">
+              <div className="service-content p-4 ">
                 <div className="service-content-inner">
                   <a
                     href=""
@@ -48,7 +48,7 @@ const Development: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInRight">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -57,7 +57,7 @@ const Development: React.FC = () => {
                   alt="Service 2"
                 />
               </div>
-              <div className="service-content p-4">
+              <div className="service-content p-4 ">
                 <div className="service-content-inner">
                   <a
                     href=""

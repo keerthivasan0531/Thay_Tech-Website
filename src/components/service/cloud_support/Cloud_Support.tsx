@@ -8,7 +8,7 @@ const CloudSupport: React.FC = () => {
   return (
     <div>
       <HeaderService name="Cloud Support" />
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 fadeInLeft">
         <div
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
@@ -21,7 +21,7 @@ const CloudSupport: React.FC = () => {
 
         <div className="flex flex-wrap justify-center text-center gap-4">
           {/* Service Items */}
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -56,7 +56,7 @@ const CloudSupport: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInRight">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -89,7 +89,7 @@ const CloudSupport: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
@@ -122,7 +122,7 @@ const CloudSupport: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 fadeInRight">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
