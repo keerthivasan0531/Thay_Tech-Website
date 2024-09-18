@@ -1,63 +1,68 @@
-import React, { useState, useEffect } from 'react';
-import './Carousel1.css';
+import React, { useState, useEffect, useRef } from "react";
 
 const Carousel1: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [animateDirection, setAnimateDirection] = useState('default');
-
+  const [animateDirection, setAnimateDirection] = useState("default");
+  const isFirstRender = useRef(true); // Track initial render
   const slides = [
     {
       id: 1,
-      src: 'home-page/img1.jpg',
-      alt: 'Slide 1',
-      heading: 'Welcome to Our Website',
-      subContent: 'Discover amazing features and content',
-      link: '/discover'
+      src: "home-page/img1.jpg",
+      alt: "Slide 1",
+      heading: "Welcome to Our Website",
+      subContent: "Discover amazing features and content",
+      link: "/discover",
     },
     {
       id: 2,
-      src: 'home-page/img2.jpg',
-      alt: 'Slide 2',
-      heading: 'Explore Our Services',
-      subContent: 'We offer a wide range of solutions',
-      link: '/services'
+      src: "home-page/img2.jpg",
+      alt: "Slide 2",
+      heading: "Explore Our Services",
+      subContent: "We offer a wide range of solutions",
+      link: "/services",
     },
     {
       id: 3,
-      src: 'home-page/img3.jpg',
-      alt: 'Slide 3',
-      heading: 'Join Us Today',
-      subContent: 'Be part of an exciting community',
-      link: '/join'
+      src: "home-page/img3.jpg",
+      alt: "Slide 3",
+      heading: "Join Us Today",
+      subContent: "Be part of an exciting community",
+      link: "/join",
     },
     {
       id: 4,
-      src: 'home-page/img4.jpg',
-      alt: 'Slide 4',
-      heading: 'Innovative Solutions',
-      subContent: 'Tailored solutions for your business',
-      link: '/solutions'
+      src: "home-page/img4.jpg",
+      alt: "Slide 4",
+      heading: "Innovative Solutions",
+      subContent: "Tailored solutions for your business",
+      link: "/solutions",
     },
     {
       id: 5,
-      src: 'home-page/img5.jpg',
-      alt: 'Slide 5',
-      heading: 'Get Started Now',
-      subContent: 'Take your business to the next level',
-      link: '/start'
+      src: "home-page/img5.jpg",
+      alt: "Slide 5",
+      heading: "Get Started Now",
+      subContent: "Take your business to the next level",
+      link: "/start",
     },
   ];
 
   const autoScroll = true;
-  const intervalTime = 3000; // 3 seconds
+  const intervalTime = 3000;
 
   useEffect(() => {
     let slideInterval: number;
 
     if (autoScroll) {
+      // Start auto-scroll only after the first render
+      if (isFirstRender.current) {
+        isFirstRender.current = false; // Mark initial render as done
+        return;
+      }
+
       const startAutoScroll = () => {
         slideInterval = window.setInterval(() => {
-          setAnimateDirection('default');
+          setAnimateDirection("default");
           setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
         }, intervalTime);
       };
@@ -74,12 +79,12 @@ const Carousel1: React.FC = () => {
   };
 
   const nextSlide = () => {
-    setAnimateDirection('right-to-left');
+    setAnimateDirection("right-to-left");
     setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
   const prevSlide = () => {
-    setAnimateDirection('left-to-right');
+    setAnimateDirection("left-to-right");
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? slides.length - 1 : prevIndex - 1
     );
@@ -97,26 +102,33 @@ const Carousel1: React.FC = () => {
             key={slide.id}
             className="slide relative w-full h-full flex items-center justify-center"
           >
+            {/* Image */}
             <img
               src={slide.src}
               alt={slide.alt}
               className="w-full h-full object-cover"
             />
-            {/* Overlay Content with Animation */}
+
+            {/* Overlay attached to the image */}
+            <div className="overlay"></div>
+
+            {/* Text Content */}
             <div
-              className={`absolute bg-clip-padding text-white px-4 carousel-text left-0 p-10 overlay ${
-                animateDirection === 'default'
-                  ? 'animate-right-to-left'
-                  : animateDirection === 'left-to-right'
-                  ? 'animate-left-to-right'
-                  : 'animate-right-to-left'
+              className={`absolute text-white px-4 carousel-text left-0 p-10 ${
+                animateDirection === "default"
+                  ? "animate-right-to-left"
+                  : animateDirection === "left-to-right"
+                  ? "animate-left-to-right"
+                  : "animate-right-to-left"
               }`}
             >
               <h2 className="carousel-heading text-4xl ml-5 font-bold mb-2">
                 {slide.heading}
               </h2>
-              <p className="carousel-subtext ml-5 text-lg mb-4">{slide.subContent}</p>
-              <a 
+              <p className="carousel-subtext ml-5 text-lg mb-4">
+                {slide.subContent}
+              </p>
+              <a
                 href={slide.link}
                 className="read-more-button flex items-center text-lg ml-5 hover:underline"
               >
@@ -157,11 +169,10 @@ const Carousel1: React.FC = () => {
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`dot w-3 h-3 rounded-full transition-all duration-300 ${
-              currentIndex === index  ? 'bg-[#4dabce] w-7 h-3'
-              : 'bg-gray-400'
-          }`}
-            onClick={() => goToSlide(index, 'default')}
+            className={`dot rounded-full transition-all duration-300 ease-in-out ${
+              currentIndex === index ? "dot-active" : "dot-inactive"
+            }`}
+            onClick={() => goToSlide(index, "default")}
           />
         ))}
       </div>

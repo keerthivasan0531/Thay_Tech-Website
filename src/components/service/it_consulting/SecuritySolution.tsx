@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../ServiceBranch.css";
+
 
 const SecuritySolution: React.FC = () => {
   useEffect(() => {
@@ -27,7 +27,7 @@ const SecuritySolution: React.FC = () => {
 
   return (
     <>
-      <div className="body font-body">
+      <div className="body ">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -42,7 +42,7 @@ const SecuritySolution: React.FC = () => {
             />
           </div>
         </div>
-        <div className="content-box flex fade-in-section">
+        <div className="content-box flex fade-in-section font-body">
           <div className="content p-10">
             <h1 className="text-gray-600 pb-3 text-2xl">
             </h1>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../ServiceBranch.css";
+
 
 const InfrastructureOutsourcing: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -54,7 +54,7 @@ const InfrastructureOutsourcing: React.FC = () => {
 
   return (
     <>
-      <div className="bodyfont-body">
+      <div className="body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -70,7 +70,7 @@ const InfrastructureOutsourcing: React.FC = () => {
             />
           </div>
         </div>
-        <div className="content-box flex fade-in-section">
+        <div className="content-box flex fade-in-section font-body">
           <div className="content p-10">
             <h1 className="text-gray-600 pb-3 text-2xl">
               <b>Infrastructure Outsourcing</b>
@@ -86,13 +86,13 @@ const InfrastructureOutsourcing: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="/outsourcing/infrastructure_outsourcing/infra-img1.jpg" />
+            <img src="/outsourcing/infrastructure_outsourcing/Infra-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/outsourcing/infrastructure_outsourcing/infra-img3.jpg" />
+              <img src="/outsourcing/infrastructure_outsourcing/Infra-img3.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">
@@ -158,13 +158,13 @@ const InfrastructureOutsourcing: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="/outsourcing/infrastructure_outsourcing/infra-img2.jpg" />
+            <img src="/outsourcing/infrastructure_outsourcing/Infra-img2.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/outsourcing/infrastructure_outsourcing/infra-img4.jpg" />
+              <img src="/outsourcing/infrastructure_outsourcing/Infra-img4.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">

@@ -26,6 +26,7 @@ import StaffOutSourcing from "./components/service/outsourcing/StaffOutsourcing"
 import Career from "./components/career/Career";
 import About from "./components/about/AboutUs";
 import SecuritySolution from "./components/service/it_consulting/SecuritySolution";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -61,6 +62,7 @@ const App: React.FC = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/About" element={<About />} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

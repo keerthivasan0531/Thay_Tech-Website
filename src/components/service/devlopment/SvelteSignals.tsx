@@ -2,7 +2,7 @@ import React from "react";
 
 const SvelteSignals: React.FC = () => {
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-white ">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
@@ -10,7 +10,7 @@ const SvelteSignals: React.FC = () => {
             <p className="mt-4 text-xl text-gray-500">Streamlined and innovative development services to propel your IT projects forward.</p>
           </div>
           <div>
-            <div className="mt-10">
+            <div className="mt-10 font-body">
               {/* Decorative image grid */}
               <div aria-hidden="true" className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">

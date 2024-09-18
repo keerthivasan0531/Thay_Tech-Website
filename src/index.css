@@ -89,3 +89,177 @@ body {
   backdrop-filter: blur(5px); /* Apply blur on hover */
   -webkit-backdrop-filter: blur(5px); /* For Safari support */
 }
+
+
+/* Carousel - 1 */
+/* Carousel wrapper */
+.carousel {
+  @apply relative;
+}
+
+.carousel-slides {
+  @apply flex w-full h-full;
+}
+
+.slide {
+  @apply min-w-full h-screen flex items-center justify-center relative;
+}
+
+.slide img {
+  @apply w-full h-full object-cover;
+}
+
+/* Arrow container */
+.carousel-arrow-container {
+  @apply absolute flex justify-center items-center;
+}
+
+.arrow-circle {
+  @apply w-10 h-10 rounded-full bg-[rgba(77,171,206,0.5)] flex justify-center items-center;
+}
+
+.carousel-prev, .carousel-next {
+  @apply bg-[rgba(0,0,0,0.5)] text-white border-none cursor-pointer z-10 p-0 outline-none;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  @apply bg-[#4dabce];
+}
+
+.dot {
+  @apply w-3 h-3 rounded-full bg-gray-500 cursor-pointer transition-all duration-300 ease-in-out;
+}
+
+/* Active dot style (expanded) */
+.dot-active {
+  @apply w-6 h-3 bg-[#4dabce]; /* Larger size and blue color for the active dot */
+}
+
+/* Inactive dot style */
+.dot-inactive {
+  @apply bg-gray-400; /* Smaller size and gray color for inactive dots */
+}
+
+/* On hover, make dots slightly larger */
+.dot:hover {
+  @apply w-4 h-4;
+}
+
+
+/* Animations */
+.animate-right-to-left {
+  animation: right-to-left 1s ease-in-out;
+}
+
+.animate-left-to-right {
+  animation: left-to-right 1s ease-in-out;
+}
+
+/* Heading & subtext animations */
+.carousel-heading {
+  @apply animate-fade-in;
+}
+
+.carousel-subtext {
+  @apply animate-fade-in;
+  animation-delay: 0.3s;
+}
+
+/* Overlay */
+.overlay {
+  @apply absolute left-0 w-[45%] h-full bg-gradient-to-r from-[rgba(37,37,37,0.5)] to-transparent backdrop-blur-[6px] z-1;
+  clip-path: ellipse(100% 100% at 0% 0%);
+}
+
+/* Carousel text content */
+.carousel-text {
+  @apply absolute z-2 left-0 p-5 text-white flex flex-col justify-center;
+}
+
+/* Read more button */
+.read-more-button {
+  @apply inline-flex items-center font-semibold transition-colors duration-300 ease-in-out;
+}
+
+.read-more-button .arrow {
+  @apply inline-block transition-transform duration-300 ease-in-out;
+}
+
+.read-more-button:hover {
+  @apply text-[#4dabce];
+}
+
+.read-more-button:hover .arrow {
+  @apply translate-x-[5px];
+}
+
+/* Responsive adjustments */
+@media (max-width: 350px) {
+  .overlay {
+    @apply hidden; /* Hide the ellipse overlay */
+  }
+
+  .carousel-heading {
+    @apply text-[1.2rem];
+  }
+
+  .carousel-subtext {
+    @apply text-[0.8rem];
+  }
+
+  .arrow-circle {
+    @apply w-6 h-6;
+  }
+
+  .read-more-button {
+    @apply text-[0.8rem];
+  }
+}
+
+/* ClientLogos section */
+.ClientLogos {
+  @apply pt-7 text-center bg-white overflow-hidden;
+}
+
+/* Title styling */
+.title {
+  @apply mb-2.5 text-black;
+}
+
+/* Wrapper for images */
+.image_wrapper {
+  @apply mx-3.5;
+}
+
+.image_wrapper img {
+  @apply w-[70%];
+}
+
+
+/* Service branch */
+.body {
+  @apply overflow-hidden;
+}
+.animate-down-to-up {
+  @apply animate-downToUp;
+}
+
+.animate-fade-in-left {
+  @apply animate-fadeInLeft;
+}
+
+.animate-right-to-left {
+  @apply animate-rightToLeft;
+}
+
+.content {
+  @apply flex-1 font-georgia; /* Applies the custom Georgia font */
+}
+
+.fade-in-section {
+  @apply opacity-0 transition-opacity duration-2000 ease-out;
+}
+
+.fade-in-section.is-visible {
+  @apply opacity-100 transform-none animate-fadeInLeft;
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../ServiceBranch.css";
+
 
 const DatabaseSupport: React.FC = () => {
   useEffect(() => {
@@ -47,7 +47,7 @@ const DatabaseSupport: React.FC = () => {
         </div>
         {/* <h1 className='content text-5xl font-bold text-center mt-6'>We design tools to unveil
                 your superpowers</h1> */}
-        <div className="content-box flex fade-in-section">
+        <div className="content-box flex fade-in-section font-body">
           <div className="content p-10">
             <h1 className="text-gray-600 pb-3 text-2xl">
               <b>Key Services:</b>

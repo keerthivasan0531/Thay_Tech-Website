@@ -24,13 +24,32 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
         </button>
       </div>
       <div className="flex flex-col items-start p-4 mt-2 space-y-6 text-xl w-full">
-        <a
+      <a
           href="/services/it-consulting"
           className="flex items-center py-2 px-3 font-medium text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors w-full rounded shadow-sm"
           style={{ boxShadow: "0 1px 3px rgba(0, 0, 0, 0.08)" }}
         >
           <span className="flex-grow">IT Consulting</span>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              toggleDropdown("it-consulting");
+            }}
+            className="text-[#00D1F9] hover:text-[#001442] transition-colors"
+          >
+            <ChevronDownIcon className={`w-4 h-4 transform ${dropdownOpen === "it-consulting" ? "rotate-180" : ""}`} />
+          </button>
         </a>
+        {dropdownOpen === "it-consulting" && (
+          <div className="flex flex-col mt-2 space-y-4 text-lg pl-6 w-full border-l-2 border-[#00D1F9]">
+            <a href="/services/it-consulting/tech-integration" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            Tech Integration
+            </a>
+            <a href="/services/it-consulting/security-solution" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            Security Solution
+            </a>
+          </div>
+        )}
         <a
           href="/services/cloud-support"
           className="flex items-center py-2 px-3 font-medium text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors w-full rounded shadow-sm"
@@ -81,10 +100,10 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
         </a>
         {dropdownOpen === "outsourcing" && (
           <div className="flex flex-col mt-2 space-y-4 text-lg pl-6 w-full border-l-2 border-[#00D1F9]">
-            <a href="/services/outsourcing/infrastructure" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/outsourcing/infrastructure-outsourcing" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Infrastructure Outsourcing
             </a>
-            <a href="/services/outsourcing/staff" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/outsourcing/staff-outsourcing" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Staff Outsourcing
             </a>
           </div>
@@ -107,10 +126,10 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
         </a>
         {dropdownOpen === "development" && (
           <div className="flex flex-col mt-2 space-y-4 text-lg pl-6 w-full border-l-2 border-[#00D1F9]">
-            <a href="/services/development/software" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/development/software-development" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Software Development
             </a>
-            <a href="/services/development/product" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/development/product-development" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Product Development
             </a>
           </div>
@@ -133,16 +152,16 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
         </a>
         {dropdownOpen === "software-training" && (
           <div className="flex flex-col mt-2 space-y-4 text-lg pl-6 w-full border-l-2 border-[#00D1F9]">
-            <a href="/services/software-training/corporate" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/software-training/corporate-training" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Corporate Training
             </a>
-            <a href="/services/software-training/on-job" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/software-training/on-job-training" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               On-Job Training
             </a>
-            <a href="/services/software-training/project" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/software-training/project-training" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Project Training
             </a>
-            <a href="/services/software-training/online-offline" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
+            <a href="/services/software-training/online-offline-training" className="text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors rounded py-2 px-3">
               Online & Offline Training
             </a>
           </div>
@@ -159,7 +178,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
             <p className="mb-3 text-sm font-medium text-gray-300">Empower your team with cutting-edge solutions.</p>
             <button
               type="button"
-              onClick={() => (window.location.href = "#")}
+              onClick={() => (window.location.href = "/services")}
               className="inline-flex items-center justify-center px-2 py-1.5 text-xs font-semibold text-white bg-[#001442] rounded-lg hover:bg-[#00D1F9] focus:outline-none transition-all duration-300 group mx-auto">
               <span className="flex items-center transition-transform duration-300 group-hover:translate-x-1.5">
                 Explore Now

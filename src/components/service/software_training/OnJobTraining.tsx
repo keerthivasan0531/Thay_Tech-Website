@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../ServiceBranch.css";
+
 
 const OnJobTraining: React.FC = () => {
   useEffect(() => {
@@ -27,7 +27,7 @@ const OnJobTraining: React.FC = () => {
 
   return (
     <>
-      <div className="body font-body">
+      <div className="body ">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -39,7 +39,7 @@ const OnJobTraining: React.FC = () => {
             <img src="/software_training/on_job_training/On-Job-Training.svg" className="animate-right-to-left" />
           </div>
         </div>
-        <div className="content-box flex fade-in-section">
+        <div className="content-box flex fade-in-section font-body">
           <div className="content p-10">
             <h1 className="text-gray-600 pb-3 text-2xl">
               <b>Elevating Expertise</b>

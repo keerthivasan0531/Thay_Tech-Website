@@ -1,5 +1,5 @@
 import Marquee from 'react-fast-marquee';
-import './ClientLogos.css';
+
 
 const imageUrls = [
   "https://www.thaytech.com/images/client/1.jpg",
