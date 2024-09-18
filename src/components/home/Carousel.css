@@ -134,7 +134,7 @@
     background-color: rgba(238, 238, 238, 0.25);
     border: none;
     color: #fff;
-    font-family: monospace;
+ 
     font-weight: bold;
     transition: background-color 0.5s, color 0.5s;
 }

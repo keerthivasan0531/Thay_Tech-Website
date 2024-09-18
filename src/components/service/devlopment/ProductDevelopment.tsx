@@ -27,7 +27,7 @@ const ProductDevelopment: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold ">
@@ -51,13 +51,13 @@ const ProductDevelopment: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="/development/product_development/Prod-img1.jpg" />
+            <img src="/development/product_development/prod-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/development/product_development/Prod-img2.jpg" />
+              <img src="/development/product_development/prod-img3.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">
@@ -75,17 +75,15 @@ const ProductDevelopment: React.FC = () => {
               <br />
 
               <p className="text-l text-justify font-weight: 500  whitespace-normal">
-                <b> Development:</b> Using the latest technologies and agile methodologies, we bring your product to life. Our development team ensures that the product is built with precision and
-                adheres to the highest standards.
+                <b> Development:</b> Using the latest technologies and agile methodologies, we bring your product to life. 
+
               </p>
               <br />
               <p className="text-l text-justify font-weight: 500  whitespace-normal">
                 <b> Testing & Quality Assurance:</b> Rigorous testing is conducted to ensure the product is robust, secure, and performs seamlessly across all platforms and environments.
               </p>
               <br />
-              <p className="text-l text-justify font-weight: 500  whitespace-normal">
-                <b>Deployment & Launch: </b> We assist you in launching your product, ensuring it reaches the market effectively and meets your business objectives.
-              </p>
+             
             </div>
           </div>
         </div>
@@ -115,18 +113,16 @@ const ProductDevelopment: React.FC = () => {
               realized.
             </p>
             <br />
-            <p className="text-l text-justify font-weight: 500  whitespace-normal">
-              <b>End-to-End Solutions: </b> From concept to completion, we provide comprehensive services that cover every aspect of product development.
-            </p>
+           
           </div>
           <div className="img p-10">
-            <img src="/development/product_development/Prod-img3.jpg" />
+            <img src="/development/product_development/prod-img4.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/development/product_development/Prod-img4.jpg" />
+              <img src="/development/product_development/prod-img2.jpg" />
             </div>
             <div className="content p-10">
               <h2 className="text-gray-600 pb-3 text-2xl">
@@ -140,7 +136,7 @@ const ProductDevelopment: React.FC = () => {
                 <br />
                 <br />
                 Our approach to sustainability is holistic, considering the entire lifecycle of the product—from design and development to deployment and maintenance. <br />
-                <br /> We strive to ensure that our solutions contribute to a more sustainable future while providing our clients with cutting-edge technologies that give them a competitive edge.
+
               </p>
               <br />
             </div>
@@ -154,7 +150,7 @@ const ProductDevelopment: React.FC = () => {
             <p className="text-l text-justify font-weight: 500  whitespace-normal">
               At Thay Technologies, our approach is collaborative and transparent. We believe in working closely with our clients throughout the development process, ensuring that you are involved and
               informed at every stage. <br />
-              <br /> Our agile development methodologies allow us to be flexible and responsive to your needs, making adjustments as necessary to deliver a product that truly aligns with your vision.
+            
             </p>
             <br />
             <h2 className="text-gray-600 pb-3 text-xl">
@@ -163,11 +159,11 @@ const ProductDevelopment: React.FC = () => {
             <p className="text-l text-justify font-weight: 500  whitespace-normal">
               In today’s interconnected world, your product needs to be ready to scale globally. Thay Technologies has a proven track record of developing solutions that cater to a global audience.{" "}
               <br />
-              <br /> Whether you’re a startup looking to enter new markets or an established enterprise aiming to expand your reach, our scalable solutions are designed to grow with your business.
+             
             </p>
           </div>
           <div className="img p-10">
-            <img src="/development/product_development/Prod-img4.jpg" />
+            <img src="/development/product_development/prod-img5.jpg" />
           </div>
         </div>
       </div>

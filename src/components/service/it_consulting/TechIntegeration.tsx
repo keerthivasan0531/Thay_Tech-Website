@@ -27,7 +27,7 @@ const TechIntegration: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body ">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -37,7 +37,7 @@ const TechIntegration: React.FC = () => {
           </div>
           <div className="flex-1">
             <img
-              src="/cloud_support/application_support/ApplicationSupport.svg"
+              src="/IT_Consulting/Business Plan-pana.svg"
               className="animate-right-to-left"
             />
           </div>
@@ -61,13 +61,13 @@ const TechIntegration: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="/cloud_support/application_support/App-img1.jpg" />
+            <img src="/IT_Consulting/tech_integeration/tech1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/cloud_support/application_support/App-img2.jpg" />
+              <img src="/IT_Consulting/tech_integeration/tech2.jpg" />
             </div>
             <div className="content p-10">
              
@@ -117,7 +117,7 @@ const TechIntegration: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="/cloud_support/application_support/App-img3.jpg" />
+            <img src="/IT_Consulting/tech_integeration/tech3.jpg" />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const HomeService: React.FC = () => {
     <div>
       <HeaderService name="Our Services" />
       {/* Our Services Section */}
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 font-body">
         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: "600px" }}>
           <h1 className="font-black text-center">Comprehensive cloud support services to optimize and maintain your business infrastructure.</h1>
         </div>

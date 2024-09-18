@@ -8,7 +8,7 @@ const CloudSupport: React.FC = () => {
   return (
     <div>
       <HeaderService name="Cloud Support" />
-      <div className="container mx-auto py-5 fadeInLeft">
+      <div className="container mx-auto py-5 fadeInLeft font-body">
         <div
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
@@ -25,7 +25,7 @@ const CloudSupport: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/cloud_support/cloud-img1.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />
@@ -60,7 +60,7 @@ const CloudSupport: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/cloud_support/cloud-img3.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 2"
                 />
@@ -93,7 +93,7 @@ const CloudSupport: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/cloud_support/cloud-img4.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 3"
                 />
@@ -126,7 +126,7 @@ const CloudSupport: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/cloud_support/cloud-img5.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 4"
                 />

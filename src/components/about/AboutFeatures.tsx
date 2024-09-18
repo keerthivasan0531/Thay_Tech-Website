@@ -1,9 +1,9 @@
-import React from "react";
+
 
 const AboutFeatures = () => {
   return (
-    <div>
-        <h2 className=" p-10  text-center text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    < div className="font-body">
+        <h2 className=" p-10  text-center text-4xl tracking-tight font-extrabold text-gray-900 ">
            why  Choose us?
           </h2>
           <p className="mb-4 text-center">
@@ -14,20 +14,7 @@ const AboutFeatures = () => {
      
       <div className="grid gap-4 justify-items-center text-center md:flex-1">
         <div className="rounded-full border-8 border-amber-400 p-4">
-           {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-14 h-14"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M24 48a24 24 0 1 1 24-24 24 24 0 0 1-24 24zm0-46a22 22 0 1 0 22 22A22 22 0 0 0 24 2z"
-            />
-          </svg>  */}
+     
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"   stroke="currentColor"  strokeWidth={1.5} width="48" height="48">
       <defs>
         <style>{`.cls-1{fill:#1e0f00}`}</style>

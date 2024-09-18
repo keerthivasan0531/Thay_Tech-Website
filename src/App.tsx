@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./components/home/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
+
 import Service from "./components/service/service_home/Service";
 import Development from "./components/service/devlopment/Development";
 import OutSourcing from "./components/service/outsourcing/Outsourcing";
@@ -25,6 +25,9 @@ import TechIntegration from "./components/service/it_consulting/TechIntegeration
 import StaffOutSourcing from "./components/service/outsourcing/StaffOutsourcing";
 import Career from "./components/career/Career";
 import About from "./components/about/AboutUs";
+import SecuritySolution from "./components/service/it_consulting/SecuritySolution";
+
+
 
 
 const App: React.FC = () => {
@@ -53,6 +56,7 @@ const App: React.FC = () => {
           <Route path="/services/software-training/project-training" element={<ProjectTraining />} />
           <Route path="/services/software-training/online-offline-training" element={<OnlineOfflineTraining />} />
           <Route path="/services/it-consulting/tech-integration" element={<TechIntegration />} />
+          <Route path="/services/it-consulting/security-solution" element={<SecuritySolution/>} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/About" element={<About />} />

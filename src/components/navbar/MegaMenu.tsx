@@ -61,8 +61,8 @@ const menuItems: MenuItem[] = [
         text: "Tech Integration",
       },
       {
-        href: "/services/it-consulting/security-solutions",
-        text: "Security Solutions",
+        href: "/services/it-consulting/security-solution",
+        text: "Security Solution",
       },
     ],
   },

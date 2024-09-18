@@ -8,7 +8,7 @@ function OutSourcing() {
     <div>
       <HeaderService name="Outsourcing" />
       {/* Our Services Section */}
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 font-body">
         <div
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
@@ -25,7 +25,7 @@ function OutSourcing() {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/outsourcing/out-img1.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />
@@ -61,7 +61,7 @@ function OutSourcing() {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/outsourcing/out-img2.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 2"
                 />

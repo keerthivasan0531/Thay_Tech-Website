@@ -3,10 +3,10 @@
 const CareerHeader = () => {
   return (
     
-    <div className="pt-4 gradient">
-      <div className="container px-3 m-4 flex flex-wrap flex-col md:flex-row items-center">
+    <div className="pt-5 bg-gradient-to-r from-[#e8ecee] to-[#314c5e]">
+      <div className="container px-3 m-2 flex flex-wrap flex-col md:flex-row items-center">
         {/* Left Col */}
-        <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left fadeInLeft">
+        <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left animate-fadeInLeft">
           <h1 className="my-4 text-5xl font-bold leading-tight">
            Career
           </h1>
@@ -15,9 +15,9 @@ const CareerHeader = () => {
           </p>
         </div>
         {/* Right Col */}
-        <div className="w-full md:w-3/5 py-6 text-center fadeInRight">
+        <div className="w-full md:w-3/5 py-6 text-center animate-fadeInRight ">
           <img
-            className="w-full md:w-4/5 z-50"
+            className="w-full md:w-5/5 z-50"
             src="/career/career1.svg"
             alt="Hero"
           />

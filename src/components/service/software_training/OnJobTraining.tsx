@@ -27,7 +27,7 @@ const OnJobTraining: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -46,8 +46,7 @@ const OnJobTraining: React.FC = () => {
             </h1>
             <p className="text-l text-justify font-weight: 500  whitespace-normal">
               Our On-Job Training (OJT) programs are meticulously crafted to provide employees with immersive, hands-on experience by embedding learning directly into their day-to-day
-              responsibilities. <br /> <br /> This strategic approach cultivates a profound comprehension of the software while simultaneously enhancing the ability to apply newly acquired skills with
-              precision in real-world scenarios.
+              responsibilities. <br />
             </p>
             <br></br>
             <p>
@@ -72,8 +71,7 @@ const OnJobTraining: React.FC = () => {
                 <b>Comprehensive Training Approach</b>
               </h1>
               <p className="text-l text-justify whitespace-normal">
-                Our expert trainers work in close partnership with employees at their workstations, delivering step-by-step instructions and tailored support for the tasks at hand. This personalized
-                approach ensures that each participant fully grasps the software’s integral role in their daily responsibilities.
+                Our expert trainers work in close partnership with employees at their workstations, delivering step-by-step instructions and tailored support for the tasks at hand.
               </p>
               <br />
               <b>Hands-On Training :</b>
@@ -108,10 +106,7 @@ const OnJobTraining: React.FC = () => {
 
             <br></br>
 
-            <p className="text-l text-justify font-weight: 500  whitespace-normal">
-              We don’t just train—we foster continuous growth. Our trainers provide ongoing support, offering feedback and adjusting the training to meet your team’s evolving needs. This adaptive
-              approach ensures that your workforce continues to develop long after the initial training is complete.
-            </p>
+          
           </div>
           <div className="img p-10">
             <img src="/software_training/on_job_training/Onjob-img4.jpg" />

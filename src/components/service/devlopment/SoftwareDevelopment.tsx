@@ -27,7 +27,7 @@ const SoftwareDevelopment: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">

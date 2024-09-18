@@ -3,7 +3,7 @@
 const AboutHeader = () => {
     return (
       
-      <div className="pt-6 gradient">
+      <div className="pt-6 bg-gradient-to-r from-[#e8ecee] to-[#314c5e]">
         <div className="container px-3 m-4 flex flex-wrap flex-col md:flex-row items-center">
           {/* Left Col */}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
@@ -17,7 +17,7 @@ const AboutHeader = () => {
           {/* Right Col */}
           <div className="w-full md:w-3/5 py-6 text-center">
             <img
-              className="w-full md:w-4/5 z-50"
+              className="w-full md:w-5/5 z-50"
               src="/about/Online world-pana.svg"
               alt="Hero"
             />

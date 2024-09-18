@@ -10,14 +10,14 @@ const Development: React.FC = () => {
       {/* Include SvelteSignals Component */}
       <SvelteSignals />
 
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 font-body">
         <div className="flex flex-wrap p-10 justify-center text-center gap-4">
           {/* Service Items */}
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4  fadeInLeft">
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img ">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/development/software_development/image1.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />
@@ -52,7 +52,7 @@ const Development: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/development/product_development/image2.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 2"
                 />

@@ -9,7 +9,7 @@ const Training: React.FC = () => {
     <div>
       <HeaderService name="Software Training" />
 
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 font-body">
         <div
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
@@ -26,7 +26,7 @@ const Training: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/software_training/software-img1.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />
@@ -43,6 +43,7 @@ const Training: React.FC = () => {
                   <div className="service-content-inner">
                     <p className="mb-4">
                       Aligning Skills to Drive Organizational Success
+                      
                     </p>
                     <a
                       className="bg-cyan-400  rounded-full py-2 px-4"
@@ -60,7 +61,7 @@ const Training: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/software_training/software-img3.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 2"
                 />
@@ -75,7 +76,7 @@ const Training: React.FC = () => {
                     On-the-Job Training
                   </a>
                   <p className="mb-4">
-                    Immediate Skill Application and Enhanced Productivity
+                    Immediate Skill Application and Enhanced
                   </p>
                   <a
                     className="bg-cyan-400  rounded-full py-2 px-4"
@@ -92,7 +93,7 @@ const Training: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/software_training/software-img2.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 3"
                 />
@@ -125,7 +126,7 @@ const Training: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
                 <img
-                  src="/service/itsupport/itsupport.jpg"
+                  src="/software_training/software-img4.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 4"
                 />

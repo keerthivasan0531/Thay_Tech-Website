@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       <HeaderService name="Contact Us" />
 
       {/* Title Section */}
-      <div className="container mx-auto py-5">
+      <div className="container mx-auto py-5 font-body">
         <div
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
@@ -22,8 +22,8 @@ const Contact: React.FC = () => {
       {/* Contact Section */}
       <div className="container mx-auto p-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <div className="bg-white shadow-2xl p-6 rounded-lg mb-6 animate_animated animatefadeIn animate_delay-200ms">
+          <div className="animate-fadeInLeft"> {/* Apply fadeInRight animation */}
+            <div className="bg-white shadow-2xl p-6 rounded-lg mb-6">
               <h4 className="text-blue-600 text-xl mb-4">Get in Touch</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-start space-x-4">
@@ -31,8 +31,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-semibold">Address</h4>
                     <p className="text-gray-700">
-                      Plot 897, Door No 9, 10th Cross,<br></br> H Block Anna
-                      Nagar West,
+                      Plot 897, Door No 9, 10th Cross,<br /> H Block Anna Nagar West,
                       <br /> Chennai - 600040
                       <br />
                     </p>
@@ -79,7 +78,7 @@ const Contact: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-2xl p-6 rounded-lg animate_animated animatefadeIn animate_delay-200ms">
+          <div className="bg-white shadow-2xl p-6 rounded-lg animate-fadeInRight"> {/* Apply fadeInLeft animation */}
             <h4 className="text-blue-600 text-xl mb-4">Send Your Message</h4>
             <p className="text-gray-700 mb-4">
               The contact form is currently inactive. Get a functional and
@@ -93,9 +92,9 @@ const Contact: React.FC = () => {
               </a>
               .
             </p>
-            <form>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div  className="w-full">
+            <form className="bg-white p-4">
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="w-full">
                   <label
                     htmlFor="name"
                     className="block text-sm font-medium text-gray-700"
@@ -105,11 +104,12 @@ const Contact: React.FC = () => {
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Your Name"
                     className="mt-1 block w-full border border-gray-300 rounded-lg p-3 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                   />
                 </div>
-                <div  className="w-full">
+                <div className="w-full">
                   <label
                     htmlFor="email"
                     className="block text-sm font-medium text-gray-700"
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                     className="mt-1 block w-full border border-gray-300 rounded-lg p-3 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                   />
                 </div>
-                <div  className="w-full">
+                <div className="w-full">
                   <label
                     htmlFor="phone"
                     className="block text-sm font-medium text-gray-700"
@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                     className="mt-1 block w-full border border-gray-300 rounded-lg p-3 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
                   />
                 </div>
-                <div  className="w-full">
+                <div className="w-full">
                   <label
                     htmlFor="project"
                     className="block text-sm font-medium text-gray-700"

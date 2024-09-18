@@ -27,7 +27,7 @@ const NetworkSupport: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -44,7 +44,7 @@ const NetworkSupport: React.FC = () => {
         <div className="content-box flex fade-in-section">
           <div className="content p-10">
             <h1 className="text-gray-600 pb-3 text-2xl">
-              <b>Key Services:</b>
+              
             </h1>
             <h3 className="text-gray-600 pb-3 text-xl">
               <b>Network Design and Architecture:</b>
@@ -53,7 +53,7 @@ const NetworkSupport: React.FC = () => {
               <b>Custom Network Design:</b> We design networks tailored to your specific business needs, ensuring they are optimized for performance, security, and scalability. <br />
               <b>Cloud Integration:</b> Our network designs ensure seamless integration with your cloud infrastructure, providing a cohesive and efficient environment.
               <br />
-              <b>Future-Proof Architecture</b> We design networks with scalability in mind, ensuring they can grow alongside your business.
+             
             </p>
             <br />
             <h3 className="text-gray-600 pb-3 text-xl">
@@ -62,7 +62,7 @@ const NetworkSupport: React.FC = () => {
             <p className="text-l text-justify font-weight: 500  whitespace-normal">
               <b>Advanced Security Protocols:</b> We implement the latest security protocols to protect your network from threats and vulnerabilities. <br />
               <b>Compliance Management:</b> We ensure your network complies with industry regulations and standards, reducing the risk of legal and financial penalties. <br />
-              <b>Firewall and Intrusion Detection:</b> We set up robust firewalls and intrusion detection systems to safeguard your network.
+             
             </p>
           </div>
           <div className="img p-10">
@@ -83,7 +83,7 @@ const NetworkSupport: React.FC = () => {
                 <br />
                 <b>Load Balancing and Traffic Management:</b> We implement load balancing solutions to optimize network performance and ensure reliable traffic management.
                 <br />
-                <b>VPN and Remote Access:</b> We set up secure VPNs and remote access solutions, enabling your team to work efficiently from anywhere.
+               
               </p>
               <h3 className="text-gray-600 pb-3 text-xl">
                 <b>Ongoing Network Management:</b>
@@ -91,7 +91,7 @@ const NetworkSupport: React.FC = () => {
               <p className="text-l text-justify font-weight: 500  whitespace-normal">
                 <b>24/7 Monitoring:</b> Continuous network monitoring allows us to detect and address issues <br />
                 <b>Expert Troubleshooting:</b> Our network support experts are available around the clock to resolve any issues quickly and efficiently. <br />
-                <b>Proactive Maintenance:</b> Regular maintenance services keep your database secure, up-to-date, and optimized for performance.
+              
               </p>
             </div>
           </div>

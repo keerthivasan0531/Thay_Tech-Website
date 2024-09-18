@@ -27,7 +27,7 @@ const StaffOutSourcing: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -43,9 +43,7 @@ const StaffOutSourcing: React.FC = () => {
                 your superpowers</h1> */}
         <div className="content-box flex fade-in-section">
           <div className="content p-10">
-            <h1 className="text-gray-600 pb-3 text-2xl">
-              <b>Key Aspects of Staff Outsourcing:</b>
-            </h1>
+          
             <h3 className="text-gray-600 pb-3 text-xl">
               <b>Access to Specialized Talent:</b>
             </h3>

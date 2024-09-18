@@ -62,9 +62,7 @@ const DatabaseSupport: React.FC = () => {
               <strong> Scalable Architecture:</strong> Our database
               architectures are built to scale, allowing your database to grow
               with your business without compromising performance. <br />
-              <strong> Data Modeling:</strong> We create detailed data models
-              that define and structure your data, making it easier to manage
-              and analyze.
+             
             </p>
             <br />
             <h3 className="text-gray-600 pb-3 text-xl">
@@ -77,9 +75,7 @@ const DatabaseSupport: React.FC = () => {
               <strong> Data Integrity and Security:</strong> We ensure that your
               data remains intact and secure throughout the migration process.
               <br />
-              <strong> Legacy System Integration:</strong> We integrate legacy
-              systems with your new cloud database, ensuring continuity and data
-              consistency.
+            
             </p>
           </div>
           <div className="img p-10">
@@ -103,9 +99,7 @@ const DatabaseSupport: React.FC = () => {
                 <strong> Performance Tuning:</strong> Our team regularly
                 assesses and optimizes your database performance, ensuring fast
                 query responses and efficient data handling. <br />
-                <strong> Security and Compliance:</strong> We implement robust
-                security measures to protect your data and ensure compliance
-                with industry regulations.
+               
               </p>
               <br />
               <h3 className="text-gray-600 pb-3 text-xl">
@@ -120,9 +114,7 @@ const DatabaseSupport: React.FC = () => {
                 analytics solutions that help you gain actionable insights from
                 your data.
                 <br />
-                <strong> Custom Reporting Solutions:</strong> We develop custom
-                reporting tools that allow you to track and visualize key
-                business metrics.
+               
               </p>
             </div>
           </div>
@@ -141,9 +133,7 @@ const DatabaseSupport: React.FC = () => {
               services keep your database secure, up-to-date, and optimized for
               performance.
               <br />
-              <strong> Expert Troubleshooting:</strong> Our database experts are
-              available around the clock to resolve any issues quickly and
-              efficiently.
+             
             </p>
             <h1 className="text-gray-600 pb-3 text-2xl">
               <b>Why Thay Technologies?</b>
@@ -155,9 +145,7 @@ const DatabaseSupport: React.FC = () => {
               <br /> <strong>Tailored Solutions:</strong> We offer customized
               solutions that align with your business goals, whether you’re a
               small startup or a large enterprise.
-              <br /> <strong>End-to-End Service:</strong> From initial design to
-              ongoing maintenance, we provide comprehensive database services
-              that cover every aspect of your cloud database needs.
+             
             </p>
             <br />
           </div>

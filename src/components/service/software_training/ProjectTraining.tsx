@@ -27,7 +27,7 @@ const ProjectTraining: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -60,12 +60,7 @@ const ProjectTraining: React.FC = () => {
               in project management.
             </p>
             <br></br>
-            <b>Real World Application:</b>
-            <p>
-              The selected projects are not mere theoretical exercises; they are
-              modeled after genuine business challenges, providing students with
-              a realistic and invaluable learning experience.
-            </p>
+
           </div>
           <div className="img p-10">
             <img src="/software_training/project_training/Project-img1.jpg" />
@@ -75,7 +70,7 @@ const ProjectTraining: React.FC = () => {
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/software_training/project_training/Project-img3.jpg" />
+              <img src="/software_training/project_training/Project-img2.jpg" />
             </div>
 
             <div className="content p-10">
@@ -90,13 +85,7 @@ const ProjectTraining: React.FC = () => {
                 practical application.
               </p>
               <br />
-              <b>Emerging Technologies:</b>
-              <p className="text-l text-justify font-weight: 500  whitespace-normal">
-                Each case study and exercise is strategically developed to align
-                with specific learning objectives, ensuring that participants
-                leave the training with a robust understanding of the software’s
-                functionalities.
-              </p>
+             
               <br />
               <b>Real World Application :</b>
               <p className="text-l text-justify font-weight: 500  whitespace-normal">
@@ -134,7 +123,7 @@ const ProjectTraining: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="/software_training/project_training/Project-img4.jpg" />
+            <img src="/software_training/project_training/Project-img3.jpg" />
           </div>
         </div>
       </div>

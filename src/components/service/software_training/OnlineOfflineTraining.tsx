@@ -27,7 +27,7 @@ const OnlineOfflineTraining: React.FC = () => {
 
   return (
     <>
-      <div className="body ">
+      <div className="body font-body ">
         <div className="header-content">
           <div className="flex-1 animate-down-to-up">
             <h1 className="font-bold">
@@ -65,13 +65,7 @@ const OnlineOfflineTraining: React.FC = () => {
               self-paced and flexible learning.
             </p>
             <br></br>
-            <p>
-              Participate in dynamic discussions with trainers and peers,
-              sharing insights, asking questions, and enhancing your
-              understanding through collaboration. <br /> <br />
-              Study from anywhere, at any time, making it easy to fit learning
-              into your schedule, regardless of location or time zone.
-            </p>
+            
           </div>
           <div className="img p-10">
             <img src="/software_training/online_offline_training/OnOffTrain1.jpg" />
@@ -81,7 +75,7 @@ const OnlineOfflineTraining: React.FC = () => {
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="/software_training/online_offline_training/OnOffTrain2.jpg" />
+              <img src="/software_training/online_offline_training/OnOffTrain6.jpg" />
             </div>
 
             <div className="content p-10">
@@ -92,9 +86,7 @@ const OnlineOfflineTraining: React.FC = () => {
                 To provide a structured and engaging in-person learning
                 experience, where participants benefit from direct interaction
                 with expert trainers. <br />
-                <br />
-                Focus on your studies in a dedicated learning environment that
-                encourages engagement and networking.
+
               </p>
               <br />
               <p className="text-l text-justify font-weight: 500  whitespace-normal">
@@ -119,9 +111,7 @@ const OnlineOfflineTraining: React.FC = () => {
               We don’t just offer courses we offer a community. Engage in
               dynamic discussions with trainers and peers, exchange insights,
               and deepen your understanding through collaborative <br />
-              <br /> With our online training, you can study from anywhere,
-              making it easier to fit learning into your busy lifestyle, no
-              matter where you are or what time zone you're in.
+              <br />
             </p>
             <br />
 

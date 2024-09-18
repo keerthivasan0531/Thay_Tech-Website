@@ -1,7 +1,6 @@
 import AboutFeatures from "./AboutFeatures";
 import AboutHeader from "./AboutHeader";
 import AboutSection from "./AboutSection";
-import "./About.css";
 
 const About = () => {
   console.log('AboutUs component rendered');
@@ -34,27 +33,28 @@ const About = () => {
 
   return (
     <div>
-      <AboutHeader/>
-      <AboutSection/>
-      <AboutFeatures/>
-      <div className="container mx-auto py-48">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+      <AboutHeader />
+      <AboutSection />
+      <AboutFeatures />
+      <div className="container mx-auto py-12 px-4 font-family">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, index) => (
-            <div key={index} className="group relative flex flex-col items-center">
-              <div className="-top-20 left-[35%] absolute" >
-                <img
-                  src={member.imgSrc}
-                  className="rounded-full transition delay-200 group-hover:border-[#bde9ff] border-4 border-[#001f2e] object-cover h-[100px] w-[100px]"
-                  alt={member.name}
-                />
-              </div>
-              <div className="group-hover:bg-[#001f2e] transition delay-200 bg-[#bde9ff] pt-4 px-4 pb-8 text-center">
-                <h2 className="group-hover:text-white transition delay-200 text-[#001f2e] text-2xl font-semibold">
+            <div
+              key={index}
+              className="group flex flex-col items-center bg-[#001f2e]  p-4 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:bg-blue-500" // Add hover:bg-blue-500 for background color change
+            >
+              <img
+                src={member.imgSrc}
+                alt={member.name}
+                className="rounded-full border-4 border-[#001f2e] object-cover h-24 w-24 mb-4 transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="text-center">
+                <div className="text-white text-xl font-semibold duration-300 group-hover:text-black"> {/* Change text color on hover */}
                   {member.name}
-                </h2>
-                <p className="group-hover:text-white transition delay-200 pb-10 text-[#001f2e] pt-4 leading-6 text-base">
+                </div>
+                <div className="text-white text-base pt-2 leading-6 duration-300 group-hover:text-black"> {/* Change text color on hover */}
                   {member.description}
-                </p>
+                </div>
               </div>
             </div>
           ))}
